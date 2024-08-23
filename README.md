@@ -2,7 +2,7 @@
 
 ## Olá, eu me chamo Gilberto Cury Netto e tenho 22 anos.
 
-<img src="https://github.com/user-attachments/assets/99117412-27ad-478d-a1c3-ff13c5ee8938" alt="Minha Foto" width="200" /><br>
+<img src="https://github.com/user-attachments/assets/d0aa44a3-b5b1-4c4b-9698-fa39ab4d50f5" alt="Minha Foto" width="200" /><br>
 
 ## O que você deveria saber Sobre mim:
 
