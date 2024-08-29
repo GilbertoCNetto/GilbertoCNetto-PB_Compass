@@ -35,7 +35,7 @@
 * mv - tanto para mover arquivos quanto para renomea-los;
 * date - pegar o tempo atual;
 * =$ - Criar uma especie de variavel, na qual adicionei informações que iria inserir no relatório;
-* eccho - Utilizei para mostras as informações coletadas, acompanhadas de frases como por exemplo 'Primeiro registro';
+* echo - Utilizei para mostras as informações coletadas, acompanhadas de frases como por exemplo 'Primeiro registro';
 * cat - Foi útil enquanto eu rodava o executavel por conta própria, para mostrar como estava ficando o relatório
 * zip - para compressão dos dados de vendas
 * rm - para apagar os antigos dados, para economizar memória.
@@ -62,7 +62,7 @@
 ![Verificando agendamento](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%201/Evidencias/Passo%208%20-%20Verificando%20se%20meu%20agendamento%20com%20o%20crontab%20-L.png)
 
 ## 7. Rodando o programa com um dia de antecedência.
-#### Como estava um pouco adiantado quando cheguei a está etapa, que no caso foi domingo de manhã, já aproveitei paar executa-lo um dia antes para caso ocorresse algum erro, eu já pudesse corrigir.
+#### Como estava um pouco adiantado quando cheguei a está etapa, que no caso foi domingo de manhã, já aproveitei para executa-lo um dia antes para caso ocorresse algum erro, eu já pudesse corrigir.
 
 ![Resultado do programa executado no domingo](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%201/Evidencias/Passo%209%20-%20Rodando%20o%20programa%20agendado%20com%20um%20dia%20de%20antecedencia%20para%20ver%20se%20esta%20funcionando.png)
 
