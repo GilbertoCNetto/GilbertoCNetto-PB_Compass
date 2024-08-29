@@ -31,6 +31,7 @@
 ## 5. Comandos para o executavel
 #### Através do nano, passei os comandos desejados para o executavel:
 * mkdir - para criar os diretórios;
+* cd - muda o diretório em que estamos, por exemplo, 'cd vendas' - vai para o diretório de vendas;
 * cp - para copiar arquivos de uma pasta pra outra;
 * mv - tanto para mover arquivos quanto para renomea-los;
 * date - pegar o tempo atual;
@@ -40,6 +41,7 @@
 * zip - para compressão dos dados de vendas;
 * rm - para apagar os antigos dados, para economizar memória;
 * Cut - que me ajudou a selecionar uma coluna específica;
+* >> - foi utilizado para inserir as informações armazenadas nas variaveis 'data_sistema_operacional', 'data_primeiro_registro', 'data_ultimo_registro' e 'itens_diferentes';
 * head - serve para mostrar uma quantia x(número desejado) de linhas, de cima para baixo;
 * tail - serve para mostrar uma quantia x(número desejado) de linhas, de baixo para cima.
 
