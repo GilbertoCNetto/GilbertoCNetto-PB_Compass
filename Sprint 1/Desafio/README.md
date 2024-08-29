@@ -36,10 +36,11 @@
 * date - pegar o tempo atual;
 * =$ - Criar uma especie de variavel, na qual adicionei informações que iria inserir no relatório;
 * echo - Utilizei para mostras as informações coletadas, acompanhadas de frases como por exemplo 'Primeiro registro';
-* cat - Foi útil enquanto eu rodava o executavel por conta própria, para mostrar como estava ficando o relatório
-* zip - para compressão dos dados de vendas
-* rm - para apagar os antigos dados, para economizar memória.
-
+* cat - Foi útil enquanto eu rodava o executavel por conta própria, para mostrar como estava ficando o relatório;
+* zip - para compressão dos dados de vendas;
+* rm - para apagar os antigos dados, para economizar memória;
+* Cut - que me ajudou a selecionar uma coluna específica
+* 
 #### É importante mencionar, que previamente a está etapa, eu testei a maioria desses comandos a mão, eu mesmo criando os diretórios, copiando e criando arquivos, movendo e renomeando, transformando em zip, tudo isso para ter uma noção básica de como utiliza-los, testes estes que estão no diretório 'evidências' dentro de um subdiretório chamado 'teste comandos pro arquivo executavel'.
 
 ![Comandos do executavel](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%201/Evidencias/Passo%204%20-%20Comandos%20pro%20executavel%20-%20final.png)
