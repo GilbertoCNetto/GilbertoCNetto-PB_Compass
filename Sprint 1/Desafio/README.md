@@ -68,7 +68,7 @@
 
 ## 8. Programa rodando segunda-feira - 20240826.
 #### Como podem ver, cometi um erro, que nesse caso foi não adicionar a data ao backup.zip, o que faria com que ele não criasse novos backup.zip a cada dia.
-
+* Comando tree - mostra como se fosse realmente um árvore, os diretórios e arquivos, em um tipo de cascata.
 ![Primeiro dia execução](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%201/Evidencias/Passo%2010%20-%20Rodando%20o%20programa%20dia%2020240826%20-%20segunda%20feira%20-%20tudo%20funcionando.png)
 
 ## 9. Programa rodando terça-feira - 20240827.
