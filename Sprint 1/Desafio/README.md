@@ -31,14 +31,19 @@
 ## 5. Comandos para o executavel
 #### Através do nano, passei os comandos desejados para o executavel:
 * mkdir - para criar os diretórios;
+* cd - muda o diretório em que estamos, por exemplo, 'cd vendas' - vai para o diretório de vendas;
 * cp - para copiar arquivos de uma pasta pra outra;
 * mv - tanto para mover arquivos quanto para renomea-los;
 * date - pegar o tempo atual;
 * =$ - Criar uma especie de variavel, na qual adicionei informações que iria inserir no relatório;
 * echo - Utilizei para mostras as informações coletadas, acompanhadas de frases como por exemplo 'Primeiro registro';
-* cat - Foi útil enquanto eu rodava o executavel por conta própria, para mostrar como estava ficando o relatório
-* zip - para compressão dos dados de vendas
-* rm - para apagar os antigos dados, para economizar memória.
+* cat - Foi útil enquanto eu rodava o executavel por conta própria, para mostrar como estava ficando o relatório;
+* zip - para compressão dos dados de vendas;
+* rm - para apagar os antigos dados, para economizar memória;
+* Cut - que me ajudou a selecionar uma coluna específica;
+* '>>' - foi utilizado para inserir as informações armazenadas nas variaveis 'data_sistema_operacional', 'data_primeiro_registro', 'data_ultimo_registro' e 'itens_diferentes', dentro do arquivo relatório;
+* head - serve para mostrar uma quantia x(número desejado) de linhas, de cima para baixo;
+* tail - serve para mostrar uma quantia x(número desejado) de linhas, de baixo para cima.
 
 #### É importante mencionar, que previamente a está etapa, eu testei a maioria desses comandos a mão, eu mesmo criando os diretórios, copiando e criando arquivos, movendo e renomeando, transformando em zip, tudo isso para ter uma noção básica de como utiliza-los, testes estes que estão no diretório 'evidências' dentro de um subdiretório chamado 'teste comandos pro arquivo executavel'.
 
@@ -82,7 +87,3 @@
 
 ![Terceiro dia de execução](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%201/Evidencias/Passo%2012%20-%20Programa%20executado%20dia%2020240828%20-%20terceiro%20dia%20-%20tudo%20funcionando.png)
 
-## 11. Programa não rodou quinta-feira
-#### Como não foi executado quinta-feira, agendei novamente pra sexta-feira:
-
-![Novo agendamento](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%201/Evidencias/Passo%2013%20-%20N%C3%A3o%20rodou%20o%20programa%20na%20quinta%20-%2020240829%20-%20remarquei%20para%20sexta.png)
