@@ -87,3 +87,14 @@
 
 ![Terceiro dia de execução](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%201/Evidencias/Passo%2012%20-%20Programa%20executado%20dia%2020240828%20-%20terceiro%20dia%20-%20tudo%20funcionando.png)
 
+## 11. Programa não rodou quinta-feira - 20240829.
+#### Remarquei o agendamento para sexta-feira
+
+![Não executou - reagendei](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%201/Evidencias/Passo%2013%20-%20N%C3%A3o%20rodou%20o%20programa%20na%20quinta%20-%2020240829%20-%20remarquei%20para%20sexta.png)
+
+## 12. Renomeei arquivo backup-dados e removi o relatorio-20240825(removi pois era apenas um teste do cron).
+
+![Resultado](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%201/Evidencias/Passo%2014%20-%20Renomeando%20o%20arquivo%20'backup-dados.zip'%20e%20excluindo%20relat%C3%B3rio%20do%20dia%2025%20-%20j%C3%A1%20que%20era%20apenas%20um%20teste%20onde%20n%C3%A3o%20alterei%20os%20arquivos%20para%20o%20dia%20seguinte.png)
+
+## 13. Programa rodando sexta-feira - 20240830.
+#### 
