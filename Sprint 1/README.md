@@ -49,9 +49,9 @@
 
 ![Comandos do executavel](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%201/Evidencias/Passo%204%20-%20Comandos%20pro%20executavel%20-%20final.png)
 
-#### O resultado obtido foi esse:
+#### Após quatro dias, o resultado obtido foi esse:
 
-![Resultado após alguns dias](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%201/Evidencias/Passo%2012%20-%20Programa%20executado%20dia%2020240828%20-%20terceiro%20dia%20-%20tudo%20funcionando.png)
+![Resultado após alguns dias](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%201/Evidencias/Passo%2015%20-%20Programa%20rodando%20ultimo%20dia%20-%2020240830.png)
 ##
 
 ## Exercícios:
