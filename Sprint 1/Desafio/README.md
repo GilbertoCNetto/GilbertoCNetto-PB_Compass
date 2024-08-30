@@ -87,7 +87,3 @@
 
 ![Terceiro dia de execução](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%201/Evidencias/Passo%2012%20-%20Programa%20executado%20dia%2020240828%20-%20terceiro%20dia%20-%20tudo%20funcionando.png)
 
-## 11. Programa não rodou quinta-feira
-#### Como não foi executado quinta-feira, agendei novamente pra sexta-feira:
-
-![Novo agendamento](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%201/Evidencias/Passo%2013%20-%20N%C3%A3o%20rodou%20o%20programa%20na%20quinta%20-%2020240829%20-%20remarquei%20para%20sexta.png)
