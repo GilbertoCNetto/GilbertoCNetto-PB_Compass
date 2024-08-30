@@ -42,9 +42,9 @@
 
 
 ## Evidências:
-### Como evidência, eu gostaria de destacar o arquivo executavel para criar os diretórios, gerar relatórios, backups e compactação de arquivos em zip.
+#### Como evidência, eu gostaria de destacar o arquivo executavel para criar os diretórios, gerar relatórios, backups e compactação de arquivos em zip.
 
-#### Ao executar esse arquivo
+#### Ao executar esse arquivo:
 
 
 ![Comandos do executavel](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%201/Evidencias/Passo%204%20-%20Comandos%20pro%20executavel%20-%20final.png)
