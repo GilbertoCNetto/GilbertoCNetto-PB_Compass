@@ -97,4 +97,25 @@
 ![Resultado](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%201/Evidencias/Passo%2014%20-%20Renomeando%20o%20arquivo%20'backup-dados.zip'%20e%20excluindo%20relat%C3%B3rio%20do%20dia%2025%20-%20j%C3%A1%20que%20era%20apenas%20um%20teste%20onde%20n%C3%A3o%20alterei%20os%20arquivos%20para%20o%20dia%20seguinte.png)
 
 ## 13. Programa rodando sexta-feira - 20240830.
-#### 
+#### Último dos 4 dias rodando
+
+![Ultimo dia](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%201/Evidencias/Passo%2015%20-%20Programa%20rodando%20ultimo%20dia%20-%2020240830.png)
+
+## 14. Criando arquivo 'consolidador_de_processamento_de_vendas.sh' e dando os comandos.
+#### Criando o executavel.
+
+![consolidador](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%201/Evidencias/Passo%2016%20-%20criando%20o%20arquivo%20'consolidador_de_processamento_de_vendas.sh'.png)
+
+#### Dando os comandos ao executavel.
+![comandos](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%201/Evidencias/Passo%2017%20-%20comandos%20para%20cria%C3%A7%C3%A3o%20do%20arquivo%20'relatorio_final.txt'.png)
+
+## 15. Executando o arquivo e verificando o resultado final.
+#### Executando o arquivo 'consolidador_de_processamento_de_vendas,sh'.
+
+![executando o arquivo](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%201/Evidencias/Passo%2018%20-%20Executando%20o%20arquivo.png)
+
+#### Verificando o resultado.
+
+![relatório final](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%201/Evidencias/Passo%2019%20-%20'relatorio_final.txt'.png)
+
+
