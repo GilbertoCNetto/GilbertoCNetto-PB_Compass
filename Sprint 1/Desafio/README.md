@@ -118,4 +118,5 @@
 
 ![relatório final](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%201/Evidencias/Passo%2019%20-%20'relatorio_final.txt'.png)
 
-
+## 16. Tudo o que foi gerado neste desafio:
+- [Diretórios e arquivos gerados](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%201/Desafio/ecommerce)

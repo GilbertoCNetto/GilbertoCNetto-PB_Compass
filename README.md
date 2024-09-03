@@ -1,6 +1,6 @@
-# Bem vindo(a) ao meu README!
+## Bem vindo(a) ao meu README!
 
-## Olá, eu me chamo Gilberto Cury Netto e tenho 22 anos.
+### Olá, eu me chamo Gilberto Cury Netto e tenho 22 anos.
 
 <img src="https://github.com/user-attachments/assets/d0aa44a3-b5b1-4c4b-9698-fa39ab4d50f5" alt="Minha Foto" width="200" /><br>
 
