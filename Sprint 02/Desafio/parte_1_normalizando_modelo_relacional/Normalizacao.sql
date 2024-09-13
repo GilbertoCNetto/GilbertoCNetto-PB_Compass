@@ -20,7 +20,7 @@ SELECT idcombustivel, tipoCombustivel FROM tb_locacao_bruto;
 
 CREATE TABLE tb_carros (
     id_carro INTEGER PRIMARY KEY,
-    km_carro INT,
+    km_carro_atual INT,
     classi_carro VARCHAR(50),
     modelo_carro VARCHAR(80),
     ano_carro INT,
@@ -30,7 +30,7 @@ CREATE TABLE tb_carros (
     FOREIGN KEY (id_marca) REFERENCES tb_marca(id_marca)
 );
 
-INSERT OR REPLACE INTO tb_carros(id_carro, km_carro, classi_carro, modelo_carro, ano_carro, id_combustivel, id_marca)
+INSERT OR REPLACE INTO tb_carros(id_carro, km_carro_atual, classi_carro, modelo_carro, ano_carro, id_combustivel, id_marca)
 SELECT idCarro, kmCarro, classiCarro, modeloCarro, anoCarro, idcombustivel, id_marca 
 FROM tb_locacao_bruto tbc
 LEFT JOIN tb_marca tbm ON tbm.marca_carro = tbc.marcaCarro
