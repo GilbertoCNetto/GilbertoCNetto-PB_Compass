@@ -1,4 +1,4 @@
-ALTER TABLE tb_locscso RENAME TO tb_locacao_bruto;
+ALTER TABLE tb_locacao RENAME TO tb_locacao_bruto;
 
 CREATE TABLE tb_clientes (
     id_cliente INTEGER PRIMARY KEY,
