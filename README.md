@@ -24,7 +24,7 @@
 ## Sprints:
 
 - [Sprint 1](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compas/tree/main/Sprint%201)
-- [Sprint 2](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%202)
+- [Sprint 2](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2002)
 
 ## Tecnologias:
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
