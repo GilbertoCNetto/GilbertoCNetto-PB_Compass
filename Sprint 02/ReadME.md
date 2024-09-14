@@ -4,7 +4,9 @@ Nesta Sprint, o nosso foco era SQL e AWS, com os cursos de SQL para Análise de 
 
 #### SQL:
 #### Eu havia utilizado o SQL umas 2 ou 3 vezes no máximo, então não conhecia muito bom, mas gostei bastante do curso, e dessa sprint como um todo, foi muito gratificante e recompensador resolver o desafio e aprender e práticar SQL.
-Alguns comandos que acho importante ressaltar são:
+#### Também gostária de acrescentar que gostei bastante dessa parte de ETL, normalização de dados, aprender sobre os modelos relacionais e dimensionais, aprender sobre DataLakes, DataWarehouses, e OLAP e OLTP...
+
+#### Alguns comandos que acho importante ressaltar são:
 * SELECT - Útil para fazer seleção de colunas de tabelas que queremos visualizar;
 * FROM - Seleciona a tabela que estamos querendo utilizar;
 * JOIN - Faz um tipo de união de uma tabela pra outra, para puxar dados de outras tabelas, já que o FROM só nos permite selecionar uma tabela;
