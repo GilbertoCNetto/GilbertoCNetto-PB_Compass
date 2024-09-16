@@ -23,7 +23,7 @@ Nesta Sprint, o nosso foco era SQL e AWS, com os cursos de SQL para Análise de 
 * AVG - Faz uma média de X valor desejado. 
 
 #### AWS:
-#### Até essa sprint, eu apenas tinha ouvido falar sobre AWS, porém nunca havia estudado sobre o assunto, gostei do curso, achei uma boa introdução sobre AWS, estou animado para ver os próximos passos e aprender sobre a parte prática dessa tecnologia.
+#### Até essa sprint, eu apenas tinha ouvido falar sobre AWS, porém nunca havia estudado sobre o assunto, gostei do curso, achei uma boa introdução sobre  as vendas em AWS, as vantagens, como lidar com as objeções dos clientes e como funciona o serviço, e estou animado para ver os próximos passos e aprender sobre a parte prática dessa tecnologia.
 
 ## Evidências:
 #### Gostaria de evidênciar os diagramas referentes a modelagem relacional(normalizada) e a modelagem dimensional.
@@ -39,7 +39,24 @@ Nesta Sprint, o nosso foco era SQL e AWS, com os cursos de SQL para Análise de 
 
 ## Exercícios:
 #### Sobre os exercícios dessa sprint, eu gostei bastante, tinham um nivel de dificuldade agradável, e foram proveitosos pro meu aprendizado, em conjunto com o curso SQL, sinto que realmente consigo me desdobrar em SQL hoje.
-#### Exemplo(exercício-10):
+
+### Alguns exercícios: 
+
+#### Exercício 8
+``` SQL
+with contagem as (
+select 
+    count(tbv.status)
+from tbvendas
+)
+select tbv.cdvdd, nmvdd
+from tbvendas tbv
+left join tbvendedor tbvdd on tbv.cdvdd = tbvdd.cdvdd
+left join tbestoqueproduto tbep on tbv.status = tbep.status
+limit 1
+```
+
+#### Exercício 10
 ``` SQL
   select
       tvd.nmvdd as vendedor, 
@@ -50,6 +67,23 @@ Nesta Sprint, o nosso foco era SQL e AWS, com os cursos de SQL para Análise de 
   where tbv.status = 'Concluído'
   group by tvd.nmvdd
   order by comissao desc;
+```
+
+#### Exercício 12
+``` SQL
+select 
+    cddep, 
+    nmdep, 
+    dtnasc, 
+    sum(tbv.qtd * tbv.vrunt) as valor_total_vendas
+from tbdependente tbd
+join tbvendedor tbve on tbve.cdvdd = tbd.cdvdd
+join tbvendas tbv on tbv.cdvdd = tbve.cdvdd
+where tbv.status = 'Concluído'
+group by tbve.nmvdd
+having valor_total_vendas > 0
+order by valor_total_vendas asc
+limit 1
 ```
 
 ## Certificado:
