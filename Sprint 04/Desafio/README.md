@@ -41,7 +41,7 @@
 ---
 
 ### Link para a etapa 1 - carguru
-- [carguru](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2004/Desafio/carguru)
+- [Etapa-1-Carguru](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2004/Desafio/carguru)
 
 ### Link para a etapa 3 - mascarar-dados
-- [hash](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2004/Desafio/mascarar_dados)
+- [Etapa-3-Mascarar-dados](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2004/Desafio/mascarar_dados)
