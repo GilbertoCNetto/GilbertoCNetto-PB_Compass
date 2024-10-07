@@ -1,7 +1,6 @@
 # **Etapas do Desafio**
 
 ## 0. Comecei o desafio instalando as bibliotecas do Pandas e do Matplotlib no VSCode, pois já havia instalado a extensão do jupyter.
-$$
 ![passo_0_p1](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%2003/Evidencias/passo_0_Instalando_o_pandas.png)
 ##
 ![passo_0_p2](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%2003/Evidencias/passo_0_parte_2_instalando_o_matplotlib.png)
