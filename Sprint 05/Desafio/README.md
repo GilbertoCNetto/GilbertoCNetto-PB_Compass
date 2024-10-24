@@ -64,4 +64,9 @@
 ![p15](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%2005/Evidencias/passo_15_bucket_deletado_com_sucesso.png)
 ##
 
+## Link para a pasta com os arquivos CSV, tanto os gerados, quanto a base de dados escolhida
+- [Pasta_Arquivos](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2005/Desafio/Arquivos_CSV)
+##
+## Link para a pasta com os Scrips utilizados no Desafio
+- [Pasta_Scripts](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2005/Desafio/Scripts)
 
