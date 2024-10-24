@@ -2,134 +2,117 @@ import pandas as pd
 import boto3
 from io import StringIO
 
-
+# Conexão com o S3
 conexao_s3 = boto3.client('s3')
 
 nome_bucket = 'sprint-05-desafio'
-nome_do_arquivo = "chegadas_2023.csv"
+nome_do_arquivo = "Tabela 2 - Tributo e Competência.csv"
 
+# Faz o download do arquivo
 acesso_csv_s3 = conexao_s3.get_object(Bucket=nome_bucket, Key=nome_do_arquivo)
-ler_csv = acesso_csv_s3['Body'].read().decode('latin1')
 
+# Lê o conteúdo do arquivo CSV
+ler_csv = acesso_csv_s3['Body'].read().decode('utf-8')
 
+# Carrega o CSV no DataFrame
 df = pd.read_csv(StringIO(ler_csv), delimiter=';')
 
 
-# 1. Classificação condicional com base nas Chegadas
-def classificar_chegadas(row):
-    if row['Chegadas'] >= 100:
-        return 'Alta'
-    elif row['Chegadas'] > 0:
-        return 'Média'
-    else:
-        return 'Baixa'
+# Criando a função de data
+def transformar_ano_em_data(df, coluna_ano):
+    df[coluna_ano] = pd.to_datetime(
+        df[coluna_ano].astype(str).str[:4] + '-01-01')
+
+    return df
 
 
-df['Classificação'] = df.apply(classificar_chegadas, axis=1)
+df = transformar_ano_em_data(df, 'Ano-calendário')
 
 
-def processar_dataframe(df):
-    # Substituir NaN na coluna 'UF'
-    ufs = {
-        'Acre': 'AC',
-        'Alagoas': 'AL',
-        'Amapá': 'AP',
-        'Amazonas': 'AM',
-        'Bahia': 'BA',
-        'Ceará': 'CE',
-        'Distrito Federal': 'DF',
-        'Espírito Santo': 'ES',
-        'Goiás': 'GO',
-        'Maranhão': 'MA',
-        'Mato Grosso': 'MT',
-        'Mato Grosso do Sul': 'MS',
-        'Minas Gerais': 'MG',
-        'Pará': 'PA',
-        'Paraíba': 'PB',
-        'Paraná': 'PR',
-        'Pernambuco': 'PE',
-        'Piauí': 'PI',
-        'Rio de Janeiro': 'RJ',
-        'Rio Grande do Norte': 'RN',
-        'Rio Grande do Sul': 'RS',
-        'Rondônia': 'RO',
-        'Roraima': 'RR',
-        'Santa Catarina': 'SC',
-        'São Paulo': 'SP',
-        'Sergipe': 'SE',
-        'Tocantins': 'TO'
-    }
-
-    # 2. Mapeamento das UFs e substituição dos NaN
-    df['Sigla_UF'] = df['UF'].map(ufs)
-    df['Sigla_UF'] = df['Sigla_UF'].fillna('Outros')
-
-    # 3. Conversão das strings e formatação
-    df['Continente'] = df['Continente'].str.upper()
-    df['País'] = df['País'].str.title()
-    df['Classificação'] = df['Classificação'].str.strip()
-
-    # 4. Criação de uma coluna para data
-    df['Data'] = pd.to_datetime(df['ano'].astype(
-        str) + '-' + df['cod mes'].astype(str) + '-01')
-
-    # 5. Aplicação do filtro para ano > 2022 e Chegadas >= 1
-    df_filtrado = df[(df['ano'] > 2022) & (df['Chegadas'] >= 1)]
-
-    # 6. Primeira agregação: A Soma e a média das chegadas por Continente e País
-    df_soma_e_media = df.groupby(['Continente', 'País'])[
-        'Chegadas'].agg(['sum', 'mean'])
-    df_soma_e_media = df_soma_e_media.rename(
-        columns={'sum': 'soma', 'mean': 'média'})
-
-    # Segunda agregação: A Contagem e o valor máximo de chegadas por Continente
-    df_contagem = df.groupby(
-        ['Continente'])['Chegadas'].agg(['count'])
-    df_contagem = df_contagem.rename(
-        columns={'count': 'contagem'})
-
-    return df_filtrado, df_soma_e_media, df_contagem, df
+# Criando a função de conversão
+def converter_para_numerico(df, coluna):
+    # Remover vírgulas e converter para numérico
+    df[coluna] = df[coluna].str.replace(',', '.').astype(float)
+    return df
 
 
-df_filtrado, df_soma_e_media, df_contagem, df_processado = processar_dataframe(
-    df)
+# Usando a função para converter as colunas 'Valor da Receita Tributária' e 'Percentual do PIB'
+df = converter_para_numerico(df, 'Valor da Receita Tributária')
+df = converter_para_numerico(df, 'Percentual do PIB')
 
-# Exibindo as tabelas
-# filtrado por número de chegadas maior que 0
+
+# Criando a função de string
+def converter_para_maiusculas(df, descricao):
+    df[descricao] = df[descricao].str.upper()
+
+    return df
+
+
+df = pd.DataFrame(df)
+df = converter_para_maiusculas(df, 'Descrição')
+
+
+# Criando a função condicional
+def classificar_receita_por_pib(df):
+    # Aplicando uma condição ao DataFrame pra criar umaa nova coluna 'Classificação Receita'
+    df['Classificação Receita'] = df['Percentual do PIB'].apply(
+        lambda x: 'Alta' if x > 0.25 else 'Baixa')
+    return df
+
+
+df = classificar_receita_por_pib(df)
+
+
+# Clausula com dois operadores lógicos
+filtro = (df['Ano-calendário'] ==
+          '2002-01-01') & (df['Percentual do PIB'] > 0.05)
+
+# Aplicando o filtro ao DataFrame
+df_filtrado = df[filtro]
+
+
+def agrega_por_ano(df):
+    df['Ano-calendário'] = df.index // 46 + 2002  # ano inicial = 2002
+    # Agrupa por ano somando a receita tributária e calculando a média do percentual do PIB
+    agregacao_ano = df.groupby('Ano-calendário').agg({
+        'Valor da Receita Tributária': 'sum',
+        'Percentual do PIB': 'mean'
+    }).reset_index()
+    return agregacao_ano
+
+
+def agrega_por_classificacao(df):
+    # Agrupa por classificação da receita somando a receita tributária e calculando a média do percentual do PIB
+    agregacao_classificacao = df.groupby('Classificação Receita').agg({'Valor da Receita Tributária': 'sum',
+                                                                       'Percentual do PIB': 'mean'}).reset_index()
+    return agregacao_classificacao
+
+
+agregado_ano = agrega_por_ano(df)
+agregado_classificacao = agrega_por_classificacao(df)
+
+print(df)
 print(df_filtrado)
+print(agregado_ano)
+print(agregado_classificacao)
 
-print(df_soma_e_media)
-
-print(df_contagem)
-
-print(df_processado)
-
-# 1. df_filtrado
-# Salvar o CSV do df_filtrado localmente
+# Subindo os arquivos CSV resultantes do codigo e salvando localmente.
+# df_filtrado
 df_filtrado.to_csv('df_filtrado.csv', index=False, sep=';')
-
-# Subindo o csv do df_filtrado para o S3
 conexao_s3.upload_file('df_filtrado.csv', nome_bucket, 'df_filtrado.csv')
 
-# 2. tabelas de agregação
-# Salvar o CSV do df_soma_e_media localmente
-df_soma_e_media.to_csv('df_soma_e_media.csv', index=False, sep=';')
+#
+df.to_csv('df.csv', index=False, sep=';')
 
-# Subindo o csv do df_soma_e_media para o S3
-conexao_s3.upload_file('df_soma_e_media.csv',
-                       nome_bucket, 'df_soma_e_media.csv')
+# Subindo o csv do df para o S3
+conexao_s3.upload_file('df.csv', nome_bucket, 'df.csv')
 
-# Salvar o CSV do df_contagem localmente
-df_contagem.to_csv('df_contagem.csv', index=False, sep=';')
+# agregado_ano
+agregado_ano.to_csv('agregado_ano.csv', index=False, sep=';')
+conexao_s3.upload_file('agregado_ano.csv', nome_bucket, 'agregado_ano.csv')
 
-# Subindo o csv do df_contagem para o S3
-conexao_s3.upload_file('df_contagem.csv', nome_bucket, 'df_contagem.csv')
-
-# 3. df_processado
-# # Salvar o CSV do df_processado localmente
-df_processado.to_csv('df_processado.csv', index=False, sep=';')
-
-# Subindo o csv do df_processado para o S3
-conexao_s3.upload_file('df_processado.csv', nome_bucket, 'df_processado.csv')
-
-print('Os arquivos csv foram criados e upados para o s3 com sucesso!')
+# agregado_classificacao
+agregado_classificacao.to_csv(
+    'agregado_classificacao.csv', index=False, sep=';')
+conexao_s3.upload_file('agregado_classificacao.csv',
+                       nome_bucket, 'agregado_classificacao.csv')
