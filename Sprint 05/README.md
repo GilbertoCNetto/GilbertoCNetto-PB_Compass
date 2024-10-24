@@ -19,5 +19,6 @@
 ## Certificados:
 ### Badge do CloudQuest:
 ![badge](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%2005/Certificado/aws-cloud-quest-cloud-practitioner.png)
+- [link_da_badge](https://www.credly.com/badges/647b2329-047a-4159-80cc-b423dae118d7/public_url)
 ### Certificado do curso preparatório:
-![certificado](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%2005/Certificado/18719_5_6208569_1729692550_AWS%20Skill%20Builder%20Course%20Completion%20Certificate.pdf)
+![certificado](image-1.png)
