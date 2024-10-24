@@ -124,7 +124,7 @@ DROP TABLE tb_locacao_bruto
 
 ## 4. E criei o diagrama do modelo relacional.
 
-![Modelagem Relacional](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%2002/Evidencias/Diagrama_modelagem_relacional.png)
+![Modelagem Relacional](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%2002/Evidencias/Passo%203%20-Diagrama_modelagem_relacional.png)
 ##
 
 ## 5. Após a normalização e a criação do diagrama do modelo relacional, criei as views para o modelo dimensional(conforme recomendado no desafio).
@@ -184,12 +184,12 @@ WHERE data_locacao IS NOT NULL;
 
 ## 6. Nessa etapa criei o diagrama da modelagem dimensional.
 
-![Modelagem Dimensional](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%2002/Evidencias/Diagrama_modelo_dimensional_star_schema.png)
+![Modelagem Dimensional](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%2002/Evidencias/Passo%205%20-Diagrama_modelo_dimensional_star_schema.png)
 ##
 
 ## 7. Após todos esses passos, decidi testar o modelo dimensional, e puxar algumas métricas sobre o database, desensolvi a seguinte query para isso:
 
-![Métricas](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%2002/Evidencias/puxando_algumas_metricas.png)
+![Métricas](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/blob/main/Sprint%2002/Evidencias/Passo%206%20-%20puxando_algumas_metricas.png)
 
 ### Análisando os resultados, é possivel observar que o estado que gerou o maior valor total em locação, foi o estado do Amazonas com o valor de R$17.600,00, e o estado com o menor valor total em locação foi o estado de São Paulo, com o valor de apenas R$400,00
 
