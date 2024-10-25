@@ -29,4 +29,4 @@
 ![badge](../Sprint%2005/Certificado/aws-cloud-quest-cloud-practitioner.png)
 - [link_da_badge](https://www.credly.com/badges/647b2329-047a-4159-80cc-b423dae118d7/public_url)
 ### Certificado do curso preparatório:
-![certificado](image-1.png)
+![certificado](../Sprint%2005/Certificado/image.png)
