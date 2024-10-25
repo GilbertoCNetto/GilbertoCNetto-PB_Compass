@@ -8,11 +8,11 @@
 ## Evidências:
 ### Algumas Evidências que gostaria de destacar:
 #### Criando o Bucket com o python:
-![Evidência_1](../Sprint%2005/Evidencias/passo_1_enviando%20arquivo_pro_s3.png)
+![Evidência_1](../Sprint%2005/Evidencias/Desafio/passo_1_enviando%20arquivo_pro_s3.png)
 #### Script de conexão com o s3 e leitura do CSV:
-![Evidência_2](../Sprint%2005/Evidencias/passo_2_importando_bibliotecas_e_conexao_s3.png)
+![Evidência_2](../Sprint%2005/Evidencias/Desafio/passo_2_importando_bibliotecas_e_conexao_s3.png)
 #### Tabelas geradas durante o desafio:
-![Evidência_3](../Sprint%2005/Evidencias/resultados_do_codigo.png)
+![Evidência_3](../Sprint%2005/Evidencias/Desafio/resultados_do_codigo.png)
 #### Link para a pasta de Evidências:
 - [Pasta de Eviências](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2005/Evidencias)
 
