@@ -17,6 +17,12 @@
 - [Pasta de Eviências](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2005/Evidencias)
 
 ## Exercícios:
+#### Bucket Criado:
+![bucket](../Sprint%2005/Evidencias/Exercicios/passo_1_criando_o_bucket.png)
+#### Arquivos carregados:
+![arquivos](../Sprint%2005/Evidencias/Exercicios/passo_5_todos_os_arquivos_que_fiz_upload_no_bucket.png)
+#### Site Hospedado:
+![site](../Sprint%2005/Evidencias/Exercicios/passo_6_acessando_o_site_hospedado.png)
 
 ## Certificados:
 ### Badge do CloudQuest:
