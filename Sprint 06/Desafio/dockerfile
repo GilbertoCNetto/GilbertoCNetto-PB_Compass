@@ -1,0 +1,12 @@
+FROM python:3.12.7-slim
+
+WORKDIR /app
+
+COPY desafio.py .
+COPY biblioteca.txt .
+COPY series.csv .
+COPY movies.csv .
+
+RUN pip install --no-cache-dir -r biblioteca.txt 
+
+CMD ["python", "desafio.py"]
