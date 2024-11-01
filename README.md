@@ -28,6 +28,7 @@
 - [Sprint 3](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2003)
 - [Sprint 4](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2004)
 - [Sprint 5](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2005)
+- [Sprint 6](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2006)
 
 
 ## Tecnologias:
