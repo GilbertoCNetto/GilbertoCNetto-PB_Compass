@@ -2,11 +2,15 @@ FROM python:3.12.7-slim
 
 WORKDIR /app
 
-COPY desafio.py .
-COPY biblioteca.txt .
-COPY series.csv .
-COPY movies.csv .
+# Criando o volume
+VOLUME [ "/app/VOLUME" ]
 
+COPY biblioteca.txt .
+COPY desafio.py /app/VOLUME/desafio.py
+COPY series.csv /app/VOLUME/series.csv
+COPY movies.csv /app/VOLUME/movies.csv
+
+# Instalando o Boto3 no docker
 RUN pip install --no-cache-dir -r biblioteca.txt 
 
-CMD ["python", "desafio.py"]
+CMD ["python", "/app/VOLUME/desafio.py"]
