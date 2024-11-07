@@ -31,4 +31,5 @@
 ![passo_6](../../Sprint%2006/Evidencias/desafio/passo_6_caminho_completo_para_o_csv_series.png)
 ##
 
-## Como podemos ver, o desafio foi concluído com sucesso
+## Análise escolhida:
+### Para minha análise escolhi o csv das series, e a análise será sobre as séries com maiores notas por década.
