@@ -32,4 +32,10 @@
 ##
 
 ## Análise escolhida:
-### Para minha análise escolhi o csv das series, e a análise será sobre as séries com maiores notas por década.
+### Para minha análise escolhi o csv das series, e a análise será sobre as séries com maiores notas por década ou por ano, também planejo analisar como foi a evolução do gasto e lucro com séries durante as décadas.
+### Alguns perguntas que eu quero explorar com esses parâmetros:
+ * Quais as séries eu indicaria para alguém com base nas notas?
+ * Em que época as séries tiveram um "boom" em lucros?
+ * Qual a margem entre gastos e lucros?
+ * Existe uma relação entre as notas e o gasto?
+ * Qual dos dois gêneros tem mais lucros e notas maiores?
