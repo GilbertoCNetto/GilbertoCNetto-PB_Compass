@@ -15,7 +15,7 @@
 - [Pasta de Eviências](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2007/Evidencias)
 
 ## Exercícios:
-### Como evidências para os exercícios gostaria o resultado de algumas queries.
+### Como evidências para os exercícios gostaria de mostrar o resultado de algumas queries.
 #### Resultado da query que calcula a quantia de linhas na tabela:
 ![query_3](../Sprint%2007/Evidencias/lab_glue/query_3.png)
 #### Resultado da query que calcula o nome feminino que mais aparece e em que ano.
