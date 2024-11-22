@@ -7,10 +7,10 @@
 ### Algumas Evidências que gostaria de destacar:
 #### Resultado do Lab Glue:
 ![Evidência_1](../Sprint%2007/Evidencias/lab_glue/Schema.png)
-#### Caminho após a conclusão do desafio:
-![Evidência_2](../Sprint%2007/Evidencias/desafio/passo_12_arquivos_upados_e_caminho_no_S#.png)
 #### Função principal do desafio:
-![Evidência_3](../Sprint%2007/Evidencias/desafio/passo_09_funcao_principal_do_lambda.png)
+![Evidência_2](../Sprint%2007/Evidencias/desafio/passo_09_funcao_principal_do_lambda.png)
+#### Caminho após a conclusão do desafio:
+![Evidência_3](../Sprint%2007/Evidencias/desafio/passo_12_arquivos_upados_e_caminho_no_S3.png)
 #### Link para a pasta de Evidências:
 - [Pasta de Eviências](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2007/Evidencias)
 
