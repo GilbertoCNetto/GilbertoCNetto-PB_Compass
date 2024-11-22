@@ -1,0 +1,1 @@
+SELECT * FROM "lab-glue-database"."frequencia_registro_nomes_eua" limit 10;
