@@ -19,7 +19,7 @@
 ## Como evidências para os exercícios gostaria de mostrar o resultado de algumas queries.
 ### Resultado final do exercício spark:
 ![evidencia_1](../Sprint%2008/Evidencias/evidencia_readme_sprint/ultima%20etapa%20do%20exercicio%20spark.png)
-### Resultado da query que calcula o nome feminino que mais aparece e em que ano:
+### Gerando os nomes aleatórios:
 ![evidencia_2](../Sprint%2008/Evidencias/evidencia_readme_sprint/gerando%20os%20nomes%20aleatorios.png)
 ### Link para a pasta dos Exercícios:
 - [Pasta dos Exercícios](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2008/Exercicios)
