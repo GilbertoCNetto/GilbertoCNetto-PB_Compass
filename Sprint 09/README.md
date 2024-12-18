@@ -8,7 +8,9 @@
 ![Evidência_1](../Sprint%2009/Evidencias/aws/passo_06_verificando_caminho_dimensionamento_pos_job.png)
 ### Diagrama da modelagem:
 ![Evidência_2](../Sprint%2009/Desafio/Modelagem-Dimesional-Series.png)
-- [Pasta de Eviências](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2009/Evidencias)
+### Código da modelagem:
+![Evidência_3](../Sprint%2009/Evidencias/modelagem_dimensional/passo_03_criação_das_tabelas_da_modelagem.png)
+- [Pasta de Evidências](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2009/Evidencias)
 
 # Exercícios:
 ### Não houve exercícios, nessa sprint!

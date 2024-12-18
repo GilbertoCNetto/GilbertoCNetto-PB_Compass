@@ -23,12 +23,15 @@
   
 ## Sprints:
 
-- [Sprint 1](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compas/tree/main/Sprint%201)
+- [Sprint 1](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2001)
 - [Sprint 2](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2002)
 - [Sprint 3](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2003)
 - [Sprint 4](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2004)
 - [Sprint 5](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2005)
 - [Sprint 6](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2006)
+- [Sprint 7](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2007)
+- [Sprint 8](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2008)
+- [Sprint 9](https://github.com/GilbertoCNetto/GilbertoCNetto-PB_Compass/tree/main/Sprint%2009)
 
 
 ## Tecnologias:
